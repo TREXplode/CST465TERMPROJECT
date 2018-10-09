@@ -1,21 +1,72 @@
 <!doctype html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <fieldset>
-            <form method="POST" action="http://www.oit.edu/cst465">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm">
-                            
-                        </div>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <title>Information Page</title>
+</head>
+<body>
+    <fieldset>
+        <form  action="https://www.oit.edu/cst465" method="POST">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="Name">Name</label>
+                        <input name="Name" id="Name" maxlength="50" size="30" value="John Doe">
+                    </div>
+                    <div class="col-sm">
+                        <label for="UserType">UserType</label>
+                        <select name="UserType" id="UserType">
+                            <option>-</option>
+                            <option>Student</option>
+                            <option>Staff</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <label for="EmailAddress">Email</label>
+                        <input name="EmailAddress" id="EmailAddress" type="email" maxlength="50" size="30" value="Exampl@Email.com">
                     </div>
                 </div>
-                <input Value="Submit" type="submit">
-            </form>
-        </fieldset>
-    </body>
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="Band">Band</label>
+                        <input name="Band" id="Band" maxlength="50" size="30" value="T.W.R.P.">
+                    </div>
+                    <div class="col-sm">
+                        <label for="Hobby">Hobby</label>
+                        <input name="Hobby" id="Hobby" maxlength="50" size="30" value="Being a loser and watching tv">
+                    </div>
+                    <div class="col-sm">
+                        <label for="CoursePrefix">Course Prefix</label>
+                        <input name="CoursePrefix" id="CoursePrefix" maxlength="50" size="30" value="CST">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="CourseNumber">Course Number</label>
+                        <input name="CourseNumber" id="CourseNumber" maxlength="50" size="30" value="465">
+                    </div>
+                    <div class="col-sm">
+                        <label for="CourseDescription">Course Description</label>
+                        <input name="CourseDescription" id="CourseDescription" maxlength="50" size="30" value="Web Development">
+                    </div>
+                    <div class="col-sm">
+                        <label for="Biography">Biography</label>
+                        <textarea name="Biography" id="Biography" rows="5">At six years old, I was born without a face.</textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="Nickname">Preferred Nickname</label>
+                    <input name="Nickname" id="Nickname" maxlength="50" size="30" value="Johnny Boy">
+                </div>
+            </div>
+            <input Value="Submit" type="submit">
+        </form>
+    </fieldset>
+</body>
+
 </html>
