@@ -1,0 +1,14 @@
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.deps.json
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.runtimeconfig.json
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.runtimeconfig.dev.json
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.dll
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.csprojAssemblyReference.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.csproj.CoreCompileInputs.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.RazorAssemblyInfo.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.RazorAssemblyInfo.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.AssemblyInfoInputs.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.AssemblyInfo.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.RazorTargetAssemblyInfo.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.dll
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.pdb
