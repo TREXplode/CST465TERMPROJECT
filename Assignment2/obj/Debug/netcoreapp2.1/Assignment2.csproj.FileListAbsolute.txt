@@ -12,3 +12,16 @@ D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Ass
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.RazorTargetAssemblyInfo.cache
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.dll
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.Views.dll
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\bin\Debug\netcoreapp2.1\Assignment2.Views.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.TagHelpers.input.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.TagHelpers.output.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.RazorCoreGenerate.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\Index.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.RazorTargetAssemblyInfo.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.Views.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Assignment2.csproj.CopyComplete
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\About.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\Contact.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_DefaultLayout.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Assignment2\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
