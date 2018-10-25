@@ -1,0 +1,40 @@
+﻿@model ComputerModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.Label("Name", "Name", new { @class = "control-label" })
+        @Html.TextBox("Name", Model.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("AdministratorPassword", "AdministratorPassword", new { @class = "control-label" })
+        @Html.TextBox("AdministratorPassword", Model.AdministratorPassword, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("IPAddress", "IPAddress", new { @class = "control-label" })
+        @Html.TextBox("IPAddress", Model.IPAddress, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Location", "Location", new { @class = "control-label" })
+        @Html.TextBox("Location", Model.Location, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("OS", "OS", new { @class = "control-label" })
+        @Html.TextBox("OS", Model.OS, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Description", "Description", new { @class = "control-label" })
+        @Html.TextBox("Description", Model.Description, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("SupportedMonitors", "SupportedMonitors", new { @class = "control-label" })
+        @Html.TextBox("SupportedMonitors", Model.SupportedMonitors, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("OSTypes", "OSTypes", new { @class = "control-label" })
+        @Html.DropDownList("OSTypes", new SelectList(ComputerModel.OSTypes), Model.OS, new { @class = "form-control" })
+    </div>
+}
