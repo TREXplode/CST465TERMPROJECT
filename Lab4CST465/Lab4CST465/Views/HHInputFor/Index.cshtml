@@ -6,35 +6,35 @@
 @using (Html.BeginForm("Index", "Home", FormMethod.Post))
 {
     <div class="form-group">
-        @Html.LabelFor("Name", Model.Name, new{@class="control-label"})
-        @Html.TextBoxFor("Name", Model.Name, new{@class="form-control" })
+        @Html.LabelFor(Model=>Model.Name, new{@class="control-label"})
+        @Html.TextBoxFor(Model=>Model.Name, new{@class="form-control" })
     </div>
     <div class="form-group">
-        @Html.LabelFor(m.AdministratorPassword, new { @class = "control-label" })
-        @Html.TextBoxFor(m=>m.AdministratorPassword, new { @class = "form-control" })
+        @Html.LabelFor(Model=>Model.AdministratorPassword, new { @class = "control-label" })
+        @Html.TextBoxFor(Model=>Model.AdministratorPassword, new { @class = "form-control" })
     </div>
     <div class="form-group">
-        @Html.LabelFor(m.IPAddress, new { @class = "control-label" })
-        @Html.TextBoxFor(m=>m.IPAddress, new { @class = "form-control" })
+        @Html.LabelFor(Model=>Model.IPAddress, new { @class = "control-label" })
+        @Html.TextBoxFor(Model=>Model.IPAddress, new { @class = "form-control" })
     </div>
     <div class="form-group">
-        @Html.LabelFor(m.Location, new { @class = "control-label" })
-        @Html.TextBoxFor(m=>m.Location, new { @class = "form-control" })
+        @Html.LabelFor(Model=>Model.Location, new { @class = "control-label" })
+        @Html.TextBoxFor(Model=>Model.Location, new { @class = "form-control" })
     </div>
     <div class="form-group">
-        @Html.LabelFor(m.OS, new { @class = "control-label" })
-        @Html.TextBoxFor(m=>m.OS, new { @class = "form-control" })
+        @Html.LabelFor(Model=>Model.OS, new { @class = "control-label" })
+        @Html.TextBoxFor(Model=>Model.OS, new { @class = "form-control" })
     </div>
     <div class="form-group">
-        @Html.LabelFor(m.Description, new { @class = "control-label" })
-        @Html.TextBoxFor(m=>m.Description, new { @class = "form-control" })
+        @Html.LabelFor(Model=>Model.Description, new { @class = "control-label" })
+        @Html.TextBoxFor(Model=>Model.Description, new { @class = "form-control" })
     </div>
     <div class="form-group">
-        @Html.LabelFor(m.SupportedMonitors, new { @class = "control-label" })
-        @Html.TextBoxFor(m=>m.SupportedMonitors, new { @class = "form-control" })
+        @Html.LabelFor(Model=>Model.SupportedMonitors, new { @class = "control-label" })
+        @Html.TextBoxFor(Model=>Model.SupportedMonitors, new { @class = "form-control" })
     </div>
     <div class="form-group">
-        @Html.LabelFor(m.OSTypes, new { @class = "control-label" })
-        @Html.DropDownListFor(m=>m.OSTypes, new SelectList(ComputerModel.OSTypes), new { @class = "form-control" })
+        @Html.Label("OSTypes", "OSTypes", new { @class = "control-label" })
+        @Html.DropDownList("OSTypes", new SelectList(ComputerModel.OSTypes), Model.OS, new { @class = "form-control" })
     </div>
 }
