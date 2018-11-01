@@ -1,0 +1,30 @@
+﻿@model  ComputerModel
+
+@{
+    ViewData["Title"] = "Submission";
+}
+
+<h2>Submission</h2>
+<div class="row">
+    <div class="col-sm">
+        @Model.Name
+        @Model.AdministratorPassword
+        @Model.IPAddress
+        @Model.Location
+        @Model.OS
+        @Model.SupportedMonitors
+        @Model.Description
+    </div>
+    <div class="col-sm">
+        @Html.DisplayFor(Model => Model.Name)
+        @Html.DisplayFor(Model => Model.AdministratorPassword)
+        @Html.DisplayFor(Model => Model.IPAddress)
+        @Html.DisplayFor(Model => Model.Location)
+        @Html.DisplayFor(Model => Model.OS)
+        @Html.DisplayFor(Model => Model.SupportedMonitors)
+        @Html.DisplayFor(Model => Model.Description)
+    </div>
+    <div class="col-sm">
+        @Html.DisplayForModel(Model)
+    </div>
+</div>

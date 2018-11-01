@@ -1,0 +1,7 @@
+﻿@model string
+@{
+    ViewData["Title"] = "OSDropdown";
+}
+
+@Html.DropDownListFor(model=>model, new SelectList(ComputerModel.OSTypes), new { @class="form-control"})
+

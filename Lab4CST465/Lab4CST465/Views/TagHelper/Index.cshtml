@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input type="text" asp-for="Name"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="AdministratorPassword"></label>
+        <input type="text" asp-for="AdministratorPassword"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="IPAddress"></label>
+        <input type="text" asp-for="IPAddress" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Location"></label>
+        <input type="text" asp-for="Location" />
+    </div>
+    <div class="form-group">
+        <label asp-for="OS"></label>
+        <input type="text" asp-for="OS" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input type="text" asp-for="Label"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="SupportedMonitors"></label>
+        <input type="text" asp-for="SupportedMonitors" />
+    </div>
+    <div class="form-group">
+        <label asp-for="OSTypes"></label>
+        @Html.DropDownList("OSTypes", new SelectList(ComputerModel.OSTypes), Model.OS, new { @class = "form-control" })
+    </div>
+}
