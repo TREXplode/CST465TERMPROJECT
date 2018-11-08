@@ -58,7 +58,7 @@ using Lab4CST465.Models;
             WriteLiteral("<html>\r\n");
             EndContext();
             BeginContext(59, 620, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b103aada6c2441879954041e949facb0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "58f8ea26f0814f41a858b57ce9beae39", async() => {
                 BeginContext(65, 607, true);
                 WriteLiteral(@"
     <script src=""https://code.jquery.com/jquery-3.3.1.slim.min.js"" integrity=""sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"" crossorigin=""anonymous""></script>
@@ -82,7 +82,7 @@ using Lab4CST465.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(681, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c8e098c20ad4f0a8bfcda5563de8ed7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "669141e839bd429ab25507ab2b904ea6", async() => {
                 BeginContext(687, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();

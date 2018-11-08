@@ -1,7 +1,57 @@
 ﻿
 @{
-    ViewData["Title"] = "Imdex";
+    ViewData["Title"] = "Index";
 }
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-<h2>Index</h2>
-
+<fieldset>
+    <div class="container">
+        <form method="post" action="/Standard/Index">
+            <div>
+                <div class="form-group">
+                    <label for="Name" class="control-label">Name</label>
+                    <input name="Name" id="Name" maxlength="50" size="30" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="AdministratorPassword" class="control-label">Addministrator Password</label>
+                    <input name="AdministratorPassword" id="AdministratorPassword" maxlength="50" size="30" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Location" class="control-label">Location</label>
+                    <input name="Location" id="Location" maxlength="50" size="30" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="IPAddress" class="control-label">IP Address</label>
+                    <input name="IPAddress" id="IPAddress" maxlength="50" size="30" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Description" class="control-label">Description</label>
+                    <textarea name="Description" id="Description" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="SupportedMonitors" class="control-label">Supported Monitors</label>
+                    <input name="SupportedMonitors" id="SupportedMonitors" max="50" size="30" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="OS" class="control-label">OS</label>
+                    <input name="OS" id="OS" max="50" size="30" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="OSType" class="control-label">OSTypes</label>
+                    <select name="OSType" id="OSType" class="form-control">
+                        @foreach (var item in ComputerModel.OSTypes)
+                        {
+                            <option>@item</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input value="Submit" type="submit" class="btn btn-primary" />
+                </div>
+            </div>
+        </form>
+    </div>
+</fieldset>

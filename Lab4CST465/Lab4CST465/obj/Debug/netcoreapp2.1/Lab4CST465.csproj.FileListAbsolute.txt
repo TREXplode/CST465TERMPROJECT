@@ -58,3 +58,6 @@ D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab4CST465\Lab4CST465\obj\Debug\netcoreapp2.1\Razor\Views\HHEditorForModel\Index.g.cshtml.cs
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab4CST465\Lab4CST465\obj\Debug\netcoreapp2.1\Razor\Views\TagHelper\Index.g.cshtml.cs
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab4CST465\Lab4CST465\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Submission.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab4CST465\Lab4CST465\obj\Debug\netcoreapp2.1\Razor\Views\Shared\EditorTemplates\OSDropdown.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab4CST465\Lab4CST465\obj\Debug\netcoreapp2.1\Razor\Views\Shared\EditorTemplates\ComputerModel.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab4CST465\Lab4CST465\obj\Debug\netcoreapp2.1\Razor\Views\Shared\DisplayTemplates\ComputerModel.g.cshtml.cs

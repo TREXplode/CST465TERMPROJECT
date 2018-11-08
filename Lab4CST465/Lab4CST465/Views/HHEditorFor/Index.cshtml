@@ -2,39 +2,52 @@
 @{
     ViewData["Title"] = "Index";
 }
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 @using (Html.BeginForm("Index", "Home", FormMethod.Post))
 {
     <div class="form-group">
-        @Html.LabelFor(Model => Model.Name, new { @class = "control-label" })
-        @Html.EditorFor(Model => Model.Name, new { htmlAttributes =  new {@class="form-control"}})
+        @Html.LabelFor(m => Model.Name, new { @class = "control-label" })
+        @Html.EditorFor(m => Model.Name, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(Model => Model.Name)
     </div>
     <div class="form-group">
-        @Html.LabelFor(Model => Model.AdministratorPassword, new { @class = "control-label" })
-        @Html.EditorFor(Model => Model.AdministratorPassword, new{htmlAttributes= new { @class = "form-control" } })
+        @Html.LabelFor(m => Model.AdministratorPassword, new { @class = "control-label" })
+        @Html.EditorFor(m => Model.AdministratorPassword, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(Model => Model.AdministratorPassword)
     </div>
     <div class="form-group">
-        @Html.LabelFor(Model => Model.IPAddress, new { @class = "control-label" })
-        @Html.EditorFor(Model => Model.IPAddress, new {htmlAttributes=new{@class="form-control"}})
+        @Html.LabelFor(m => Model.IPAddress, new { @class = "control-label" })
+        @Html.EditorFor(m => Model.IPAddress, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(Model => Model.IPAddress)
     </div>
     <div class="form-group">
-        @Html.LabelFor(Model => Model.Location, new { @class = "control-label" })
-        @Html.EditorFor(Model => Model.Location, new {htmlAttributes=new{@class="form-control"}})
+        @Html.LabelFor(m => Model.Location, new { @class = "control-label" })
+        @Html.EditorFor(m => Model.Location, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(Model => Model.Location)
     </div>
     <div class="form-group">
-        @Html.LabelFor(Model => Model.OS, new { @class = "control-label" })
-        @Html.EditorFor(Model => Model.OS, new {htmlAttributes=new{@class="form-control"}})
+        @Html.LabelFor(m => Model.OS, new { @class = "control-label" })
+        @Html.EditorFor(m => Model.OS, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(Model => Model.OS)
     </div>
     <div class="form-group">
-        @Html.LabelFor(Model => Model.Description, new { @class = "control-label" })
-        @Html.EditorFor(Model => Model.Description, new {htmlAttributes=new{@class="form-control"}})
+        @Html.LabelFor(m => Model.Description, new { @class = "control-label" })
+        @Html.EditorFor(m => Model.Description, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(Model => Model.Description)
     </div>
     <div class="form-group">
-        @Html.LabelFor(Model => Model.SupportedMonitors, new { @class = "control-label" })
-        @Html.EditorFor(Model => Model.SupportedMonitors, new {htmlAttributes=new{@class="form-control"}})
+        @Html.LabelFor(m => Model.SupportedMonitors, new { @class = "control-label" })
+        @Html.EditorFor(m => Model.SupportedMonitors, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(Model => Model.SupportedMonitors)
     </div>
     <div class="form-group">
         @Html.Label("OSTypes", "OSTypes", new { @class = "control-label" })
         @Html.DropDownList("OSTypes", new SelectList(ComputerModel.OSTypes), Model.OS, new { @class = "form-control" })
+    </div>
+    <div>
+        <input value="Submit" type="submit" />
     </div>
 }
