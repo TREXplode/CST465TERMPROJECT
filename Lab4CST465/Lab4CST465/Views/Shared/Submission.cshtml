@@ -5,26 +5,28 @@
 }
 
 <h2>Submission</h2>
-<div class="row">
-    <div class="col-sm">
-        @Model.Name
-        @Model.AdministratorPassword
-        @Model.IPAddress
-        @Model.Location
-        @Model.OS
-        @Model.SupportedMonitors
-        @Model.Description
-    </div>
-    <div class="col-sm">
-        @Html.DisplayFor(m => Model.Name)
-        @Html.DisplayFor(m => Model.AdministratorPassword)
-        @Html.DisplayFor(m => Model.IPAddress)
-        @Html.DisplayFor(m => Model.Location)
-        @Html.DisplayFor(m => Model.OS)
-        @Html.DisplayFor(m => Model.SupportedMonitors)
-        @Html.DisplayFor(m => Model.Description)
-    </div>
-    <div class="col-sm">
-        @Html.DisplayForModel(Model)
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            @Model.Name
+            @Model.AdministratorPassword
+            @Model.IPAddress
+            @Model.Location
+            @Model.OS
+            @Model.SupportedMonitors
+            @Model.Description
+        </div>
+        <div class="col-sm-4">
+            @Html.DisplayFor(m => Model.Name)
+            @Html.DisplayFor(m => Model.AdministratorPassword)
+            @Html.DisplayFor(m => Model.IPAddress)
+            @Html.DisplayFor(m => Model.Location)
+            @Html.DisplayFor(m => Model.OS)
+            @Html.DisplayFor(m => Model.SupportedMonitors)
+            @Html.DisplayFor(m => Model.Description)
+        </div>
+        <div class="col-sm-4">
+            @Html.DisplayForModel(Model)
+        </div>
     </div>
 </div>

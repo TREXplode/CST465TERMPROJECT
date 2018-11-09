@@ -1,4 +1,4 @@
-﻿
+﻿@model ComputerModel
 @{
     ViewData["Title"] = "Index";
 }
@@ -28,18 +28,14 @@
     </div>
     <div class="form-group">
         <label asp-for="OS"></label>
-        <input type="text" asp-for="OS" />
+        @Html.EditorFor(m => m.OS)
     </div>
-    <div class="form-group">
-        <label asp-for="Description"></label>
-        <input type="text" asp-for="Label" />
-    </div>
-    <div class="form-group">
-        <label asp-for="SupportedMonitors"></label>
-        <input type="text" asp-for="SupportedMonitors" />
-    </div>
-    <div class="form-group">
-        <label asp-for="OSTypes"></label>
-        @Html.DropDownList("OSTypes", new SelectList(ComputerModel.OSTypes), Model.OS, new { @class = "form-control" })
-    </div>
+        <div class="form-group">
+             <label asp-for="Description"></label>
+             <input type="text" asp-for="Description" />
+         </div>
+         <div class="form-group">
+             <label asp-for="SupportedMonitors"></label>
+             <input type="text" asp-for="SupportedMonitors" />
+         </div>
 }

@@ -13,10 +13,10 @@ namespace Lab4CST465.Models
         [StringLength(20)]
         public string Name { get; set; }
         [Required(ErrorMessage ="A password is required")]
-        [DataType("textbox")]
+        [DataType(DataType.Password)]
         public string AdministratorPassword { get; set; }
         //[Required(ErrorMessage = "An IP Address is required")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{1,3}.{1,3}.{1,3}.{1,3} ")]
+        [RegularExpression(@"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}")]
         public string IPAddress { get; set; }
         //[Required(ErrorMessage = "A Location is required")]
         public string Location { get; set; }
@@ -24,7 +24,7 @@ namespace Lab4CST465.Models
         [UIHint("OSDropdown")]
         public string OS { get; set; }
         //[Required(ErrorMessage = "")]
-        [DataType("Textarea")]
+        [DataType(DataType.MultilineText)]
         public string Description { get; set; }
         [Required(ErrorMessage = "The number of supported monitors is required")]
         [Range(1, 4)]
