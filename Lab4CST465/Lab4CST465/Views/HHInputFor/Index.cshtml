@@ -6,7 +6,7 @@
       crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-@using (Html.BeginForm("Index", "HHInputFor", FormMethod.Post))
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
 {
     <div class="form-group">
         @Html.LabelFor(m => Model.Name, new { @class = "control-label" })
@@ -31,7 +31,7 @@
     </div>
     <div class="form-group">
         @Html.LabelFor(m => Model.OS, new { @class = "control-label" })
-        @Html.DropDownList("OSTypes", new SelectList(ComputerModel.OSTypes), Model.OS, new { @class = "form-control" })
+        @Html.TextBoxFor(m => Model.OS, new { @class = "form-control" })
         @Html.ValidationMessageFor(Model => Model.OS)
     </div>
     <div class="form-group">
@@ -43,6 +43,10 @@
         @Html.LabelFor(m => Model.SupportedMonitors, new { @class = "control-label" })
         @Html.TextBoxFor(m => Model.SupportedMonitors, new { @class = "form-control" })
         @Html.ValidationMessageFor(Model => Model.SupportedMonitors)
+    </div>
+    <div class="form-group">
+        @Html.Label("OSTypes", "OSTypes", new { @class = "control-label" })
+        @Html.DropDownList("OSTypes", new SelectList(ComputerModel.OSTypes), Model.OS, new { @class = "form-control" })
     </div>
     <div>
         <input value="Submit" type="submit" />

@@ -12,15 +12,3 @@ D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\bin\Debug\netcoreapp2.1\Lab5CST465.pdb
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.dll
 D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.pdb
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\bin\Debug\netcoreapp2.1\Lab5CST465.Views.dll
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\bin\Debug\netcoreapp2.1\Lab5CST465.Views.pdb
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.TagHelpers.input.cache
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.TagHelpers.output.cache
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.RazorCoreGenerate.cache
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Razor\Views\Shared\DefaultLayout.g.cshtml.cs
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.RazorTargetAssemblyInfo.cs
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.Views.pdb
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Lab5CST465.csproj.CopyComplete
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
-D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab5CST465\obj\Debug\netcoreapp2.1\Razor\Views\Home\IndexGet.g.cshtml.cs
