@@ -1,0 +1,51 @@
+﻿@model TreaterM
+<form asp-action="Index" asp-controller="Home" method="post">
+    @Html.AntiForgeryToken()
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <label>Name</label>
+            </div>
+            <div class="col-6">
+                <label>Favorite Candy</label>
+            </div>
+            <div class="col-3">
+                <label>Costume</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                
+                <input asp-for="Name" type="text"/>
+            </div>
+            <div class="col-6">
+                <select asp-for="CandyID" asp-items="@(new SelectList(Model.CandyList, "ID", "name", Model.CandyList.Where(C => C.name == ViewBag.settings.DefaultCandy).FirstOrDefault()?.ID))"></select>
+            </div>
+            <div class="col-3">
+                <select asp-for="CostumeID" asp-items="@(new SelectList(Model.CostumeList, "ID", "name", Model.CostumeList.Where(C => C.name == ViewBag.settings.DefaultCostume).FirstOrDefault()?.ID))"></select>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="submit" />
+        </div>
+    </div>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Favorite Candy</td>
+            <td>Costume</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var treater in Model.TreaterList)
+        {
+            <tr>
+                <td>@treater.Name</td>
+                <td>@Model.CandyList.Where(c=> c.ID == treater.FavCand)?.FirstOrDefault()?.name</td>
+                <td>@Model.CostumeList.Where(c => c.ID == treater.Cost)?.FirstOrDefault()?.name</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,39 @@
+﻿@model MidtermQs
+@{
+    ViewData["Title"] = "TakeTest";
+}
+
+<form asp-controller="Midterm" asp-action="TakeTest" method="post">
+    @Html.AntiForgeryToken()
+    <table>
+        <thead>
+            <tr>
+                <td>Question</td>
+                <td>Answer</td>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Tquestions.Count; i++)
+            {
+                @if (Model.Tquestions[i].type == "ShortAnswerQuestion")
+                {
+                    <partial name="ShortAnswer" for="@Model.Tquestions[i]" />
+                }
+                @if (Model.Tquestions[i].type == "LongAnswerQuestion")
+                {
+                    <partial name="LongAnswer" for="@Model.Tquestions[i]" />
+                }
+                @if (Model.Tquestions[i].type == "MultipleChoiceQuestion")
+                {
+                    <partial name="MultipleChoiceAnswer" for="@Model.Tquestions[i]" />
+                }
+                @if (Model.Tquestions[i].type == "TrueFalseQuestion")
+                {
+                    <partial name="TrueFalseAnswer" for="@Model.Tquestions[i]" />
+                }
+            }
+        </tbody>
+    </table>
+    <input type="submit" value="submit" />
+</form>
+

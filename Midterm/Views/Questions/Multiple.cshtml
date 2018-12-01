@@ -1,0 +1,13 @@
+﻿@model MultipleChoiceQuestion
+
+<tr>
+    <td>
+        <h2>@Model.Question</h2>
+    </td>
+    <td class="form-group">
+        @foreach (var choice in Model.Choice)
+        {
+            <input type="radio" name="Answer" id="Answer" value="@choice" />
+        }
+    </td>foreach
+</tr>

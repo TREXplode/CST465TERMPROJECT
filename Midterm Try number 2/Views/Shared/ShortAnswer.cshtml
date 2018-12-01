@@ -1,0 +1,14 @@
+﻿@model ShortQuestion
+@{
+    ViewData["Title"] = "ShortAnswer";
+}
+<tr>
+    <h3>Short Answer</h3>
+    <h2>@Model.question</h2>
+    <tr>
+        <input asp-for="id" type="hidden" />
+    </tr>
+    <tr class="row">
+        <input asp-for="answer" type="text" />
+    </tr>
+</tr>

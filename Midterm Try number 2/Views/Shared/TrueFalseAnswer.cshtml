@@ -1,0 +1,18 @@
+﻿@model TrueFalseQuestion
+@{
+    ViewData["Title"] = "TrueFalseAnswer";
+}
+
+<tr>
+    <h3>True or False Answer</h3>
+    <h2>@Model.question</h2>
+    <tr>
+      <input asp-for="id" type="hidden" />
+    </tr>
+    <tr>
+       <select asp-for="answer">
+            <option value="True">True</option>
+         <option value="False">False</option>
+        </select>
+    </tr>
+</tr>

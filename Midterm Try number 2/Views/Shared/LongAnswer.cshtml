@@ -1,0 +1,14 @@
+﻿@model LongQuestion
+@{
+    ViewData["Title"] = "LongAnswer";
+}
+<tr>
+    <h3>Long Answer</h3>
+    <h2>@Model.question</h2>
+    <tr>
+        <input asp-for="id" type="hidden" />
+    </tr>
+    <tr>
+        <textarea asp-for="answer"></textarea>
+    </tr>
+</tr>

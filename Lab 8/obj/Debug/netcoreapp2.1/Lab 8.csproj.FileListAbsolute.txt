@@ -1,0 +1,25 @@
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\bin\Debug\netcoreapp2.1\Lab 8.deps.json
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\bin\Debug\netcoreapp2.1\Lab 8.runtimeconfig.json
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\bin\Debug\netcoreapp2.1\Lab 8.runtimeconfig.dev.json
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\bin\Debug\netcoreapp2.1\Lab 8.dll
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.csprojAssemblyReference.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.csproj.CoreCompileInputs.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.RazorAssemblyInfo.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.RazorAssemblyInfo.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.AssemblyInfoInputs.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.AssemblyInfo.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.RazorTargetAssemblyInfo.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\bin\Debug\netcoreapp2.1\Lab 8.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.dll
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\bin\Debug\netcoreapp2.1\Lab 8.Views.dll
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\bin\Debug\netcoreapp2.1\Lab 8.Views.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.TagHelpers.input.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.TagHelpers.output.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.RazorCoreGenerate.cache
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\DefaultLayout.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.RazorTargetAssemblyInfo.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.Views.pdb
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Lab 8.csproj.CopyComplete
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Old Stuff\College Stuff\TERM_FALL_2018\Assignments\Code\CST465TERMPROJECT\Lab 8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs

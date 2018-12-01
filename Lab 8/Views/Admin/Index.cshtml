@@ -1,0 +1,57 @@
+﻿@inject RoleManager<IdentityRole> RoleMan
+@inject UserManager<UserModel> UserMan
+
+<form asp-action="CreateRole" asp-controller="Admin">
+    @Html.AntiForgeryToken()
+    <label for="RoleName" class="control-label">Role Name</label>
+    <input type="text" id="RoleName" name="RoleName" class="form-control" />
+    <button type="Submit" class="btn btn-default">Create Role</button>
+</form>
+<form asp-action="AddUserToRole" asp-controller="Admin">
+    @Html.AntiForgeryToken()
+    <label for="RoleName" class="control-label">Role Name</label>
+    <input type="text" id="RoleName" name="RoleName" class="form-control" />
+    <label for="Email" class="control-label">User Name</label>
+    <input type="text" id="Email" name="Email" class="form-control" />
+    <button type="Submit" class="btn btn-default">Add User to Role</button>
+</form>
+<div class="row">
+    <div class="col-6">
+        <h2>Roles</h2>
+        <ul class="list-group">
+            @foreach (var role in RoleMan.Roles)
+            {
+                <li class="list-group-item">@role.Name</li>
+            }
+        </ul>
+
+    </div>
+    <div class="col-6">
+        <h2>Users</h2>
+        <ul class="list-group">
+            @foreach (var user in UserMan.Users)
+            {
+                <li class="list-group-item">
+                        @user.Email
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+<form asp-action="AddUserToRole" asp-controller="Admin" method="post">
+    @Html.AntiForgeryToken()
+    @Html.Hidden("Email", User.Identity.Name)
+    @Html.Hidden("RoleName", "Admins")
+    <button type="submit" class="btn btn-primary">Make me admin</button>
+</form>
+<h1>List of Roles and Users in each Role</h1>
+@foreach (var role in RoleMan.Roles)
+{
+<div>
+    <h3>@role.Name</h3>
+    @foreach (var user in UserMan.GetUsersInRoleAsync(role.Name).Result)
+    {
+        <div>@user.UserName</div>
+    }
+</div>
+}

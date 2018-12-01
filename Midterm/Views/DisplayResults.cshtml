@@ -1,0 +1,25 @@
+﻿@model IEnumerable<TestQuestion>
+@{
+    ViewData["Title"] = "DisplayResults";
+}
+
+<table>
+    <thead>
+        <tr>
+            <td>Question</td>
+            <td>Answer</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var t in Model)
+        {
+            <tr>
+                <td>@t.Question</td>
+            </tr>
+            <tr>
+                <td>@t.Answer</td>
+            </tr>
+        }
+    </tbody>foreach
+</table>
+

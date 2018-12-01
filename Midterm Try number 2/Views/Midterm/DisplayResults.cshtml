@@ -1,0 +1,16 @@
+﻿@model MidtermQs
+@{
+    ViewData["Title"] = "DisplayResults";
+}
+
+<h2>Test Results</h2>
+<table class="table">
+    @for (int i = 0; i < Model.Tquestions.Count; i++)
+    {
+        <tr>
+            <h3>@Model.Tquestions[i].id</h3>
+            <h4>@Model.Tquestions[i].question</h4>
+            <h4>@Model.Tquestions[i].answer</h4>
+        </tr>
+    }
+</table>

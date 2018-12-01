@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Lab5CST465",
+    "\\Lab5CST465\\Controllers",
+    "\\Lab5CST465\\Models",
+    "\\Lab5CST465\\Repositories",
+    "\\Lab5CST465\\Views",
+    "\\Lab5CST465\\Views\\Candy",
+    "\\Lab5CST465\\Views\\Costume",
+    "\\Lab5CST465\\Views\\Home",
+    "\\Lab5CST465\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Lab5CST465\\Views\\Shared\\DefaultLayout.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,37 @@
+﻿@model IEnumerable<TestQuestion>
+@{
+    ViewData["Title"] = "TakeTest";
+}
+
+<form asp-controller="Midterm" asp-action="TakeTest" method="post">
+    @Html.AntiForgeryToken()
+    <table>
+        <thead>
+            <tr>
+                <td>Question</td>
+                <td>Answer</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var TestQuestion in Model)
+            {
+                @if (TestQuestion is ShortQuestion)
+                {
+                    <partial name="Short" for="@TestQuestion" />
+                }
+                @if (TestQuestion is LongQuestion)
+                {
+                    <partial name="Long" for="@TestQuestion" />
+                }
+                @if (TestQuestion is MultipleChoiceQuestion)
+                {
+                    <partial name="Multiple" for="@TestQuestion" />
+                }
+                @if (TestQuestion is TrueFalseQuestion)
+                {
+                    <partial name="TrueFalse" for="@TestQuestion" />
+                }
+            }
+        </tbody>foreach
+    </table>
+</form>

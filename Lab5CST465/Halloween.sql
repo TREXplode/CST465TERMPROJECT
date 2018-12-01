@@ -122,6 +122,20 @@ CREATE PROCEDURE Costumes_Delete
 AS
 DELETE FROM Costumes
 WHERE Id=@Id;
+Go
+Create PROCEDURE Treaters_GetList
+AS
+SELECT * FROM Treaters;
+GO
+CREATE PROCEDURE Treaters_Insert
+(
+	@Name varchar(50),
+	@Candy int,
+	@Costume int
+)
+AS
+INSERT INTO Treaters(Name, FavoriteCandyID, CostumeID)
+VALUES(@Name, @Candy, @Costume)
 GO
 CREATE LOGIN Ghost WITH PASSWORD='abc123', CHECK_POLICY=OFF;
 GO
